@@ -21,7 +21,7 @@ public class PlayerTipListener implements Listener {
     @EventHandler // 注入灵魂 狗头.jpg
     public void onPlayerJoinEvent(PlayerJoinEvent e) {
         e.getPlayer().sendMessage(PlayerManager.isRegister(e.getPlayer()) ?
-                Util.getColorMsg("info.login") :
-                Util.getColorMsg("info.register"));
+                Util.getConfigSetting("info.login") :
+                Util.getConfigSetting("info.register"));
     }
 }

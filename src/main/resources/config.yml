@@ -21,4 +21,12 @@ error:
   hasRegister: "&c您已经注册过啦~ 输入&e&l/login 密码 &c以便登入~"
   notRegister: "&c您还没注册呢~ 输入 &e&l/register 密码 密码 &c以便注册~"
   passwordNotSame: "&c您两次输入的密码不一致哟~ 请再输入一次!&b;w;"
-  outOfRange: "&c参数错误~ &b=w="
+  outOfRange: "&c&l参数错误，请重新检查!"
+  pwdPattenWrong: "&c密码不合法哟，至少6-16个字符，至少1个大写字母，1个小写字母和1个数字"
+
+other:
+  # 密码正则表达式 如果不要求则填空着
+  # 至少6-16个字符，至少1个大写字母，1个小写字母和1个数字
+  # 请务必使用转义符\\
+  # https://www.cnblogs.com/daizhongxing/p/11593137.html
+  pwdPatten: "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{6,16}$"

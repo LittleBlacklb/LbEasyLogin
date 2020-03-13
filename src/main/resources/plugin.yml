@@ -1,4 +1,4 @@
-name: EasyLogin
+name: LbEasyLogin
 main: lb.lbeasylogin.LbEasyLogin
 version: "1.0"
 api-version: 1.12.2

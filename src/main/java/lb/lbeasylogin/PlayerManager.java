@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import static lb.lbeasylogin.Reference.PASSWDCONFIG;
 
 /**
- * van家未登入管理器
+ * van家登录管理器
  *
  * @date null
  */

@@ -24,7 +24,7 @@ public class PlayerLoginCommand implements CommandExecutor {
         Player p = (Player) commandSender;
 
         String cmdName = cmd.getName().toLowerCase();
-        if (cmdName.equals("login") | label.equals("l")){
+        if (cmdName.equals("login") | label.equals("l")) {
             return login(p, args);
         } else if (cmdName.equals("register") | label.equals("reg")) {
             return register(p, args);
@@ -34,45 +34,53 @@ public class PlayerLoginCommand implements CommandExecutor {
 
     private boolean login(Player p, String[] args) {
         if (args.length != 1) {
-            p.sendMessage(Util.getColorMsg("error.outOfRange"));
+            p.sendMessage(Util.getConfigSetting("error.outOfRange"));
             return false;
         }
         if (!PlayerManager.isRegister(p)) {
-            p.sendMessage(Util.getColorMsg("error.notRegister"));
+            p.sendMessage(Util.getConfigSetting("error.notRegister"));
             return true;
         }
         if (PlayerManager.isLogin(p)) {
-            p.sendMessage(Util.getColorMsg("error.hasLogin"));
+            p.sendMessage(Util.getConfigSetting("error.hasLogin"));
             return true;
         }
         if (PlayerManager.isCorrectPasswd(p, args[0])) {
             PlayerManager.setLogin(p, true);
             p.getPlayer().removePotionEffect(PotionEffectType.SLOW);
             p.getPlayer().removePotionEffect(PotionEffectType.BLINDNESS);
-            p.sendMessage(Util.getColorMsg("succ.login"));
+            p.sendMessage(Util.getConfigSetting("succ.login"));
         } else {
-            p.sendMessage(Util.getColorMsg("error.login"));
+            p.sendMessage(Util.getConfigSetting("error.login"));
         }
         return true;
     }
 
     private boolean register(Player p, String[] args) {
         if (args.length != 2) {
-            p.sendMessage(Util.getColorMsg("error.outOfRange"));
+            p.sendMessage(Util.getConfigSetting("error.outOfRange"));
             return false;
         }
         if (PlayerManager.isRegister(p)) {
-            p.sendMessage(Util.getColorMsg("error.hasRegister"));
+            p.sendMessage(Util.getConfigSetting("error.hasRegister"));
             return true;
         }
         if (!args[0].equals(args[1])) {
-            p.sendMessage(Util.getColorMsg("error.passwordNotSame"));
+            p.sendMessage(Util.getConfigSetting("error.passwordNotSame"));
             return true;
+        }
+        // 正则表达式验证密码是否合法
+        String patten = Util.getConfigSetting("other.pwdPatten");
+        if (!patten.equals("")) { // 如果表达式不为空
+            if (!args[0].matches(patten)) { // 如果不合法
+                p.sendMessage(Util.getConfigSetting("error.pwdPattenWrong"));
+                return true;
+            }
         }
         PlayerManager.setRegister(p, args[0]);
         p.getPlayer().removePotionEffect(PotionEffectType.SLOW);
         p.getPlayer().removePotionEffect(PotionEffectType.BLINDNESS);
-        p.getPlayer().sendMessage(Util.getColorMsg("succ.register"));
+        p.getPlayer().sendMessage(Util.getConfigSetting("succ.register"));
         PlayerManager.setLogin(p, true);
         return true;
     }

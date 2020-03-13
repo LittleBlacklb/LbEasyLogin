@@ -41,7 +41,7 @@ public class PlayerLimitListener implements Listener {
             return;
         if (!PlayerManager.isLogin(e.getPlayer())) {
             e.setCancelled(true);
-            e.getPlayer().sendMessage(Util.getColorMsg("error.notAllowSpeak"));
+            e.getPlayer().sendMessage(Util.getConfigSetting("error.notAllowSpeak"));
         }
     }
 
@@ -65,7 +65,7 @@ public class PlayerLimitListener implements Listener {
             }
         }
         e.setCancelled(true);
-        e.getPlayer().sendMessage(Util.getColorMsg("error.notAllowUseCommand"));
+        e.getPlayer().sendMessage(Util.getConfigSetting("error.notAllowUseCommand"));
     }
 
     /**

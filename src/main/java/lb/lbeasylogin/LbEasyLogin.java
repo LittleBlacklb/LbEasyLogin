@@ -35,7 +35,7 @@ public class LbEasyLogin extends JavaPlugin {
         Bukkit.getPluginCommand("register").setExecutor(plc);
 
         Bukkit.getConsoleSender().sendMessage("[LbEasyLogin] " + ChatColor.WHITE + " LbEasyLogin已加载!");
-        Bukkit.getConsoleSender().sendMessage("[LbEasyLogin] " + ChatColor.WHITE + " 2020/2/28 23:16 ver1.0 " + ChatColor.YELLOW + "Bilibili乾杯!");
+//        Bukkit.getConsoleSender().sendMessage("[LbEasyLogin] " + ChatColor.WHITE + " 2020/2/28 23:16 ver1.0 " + ChatColor.YELLOW + "Bilibili乾杯!");
     }
 
     @Override

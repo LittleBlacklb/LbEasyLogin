@@ -1,7 +1,6 @@
 package lb.lbeasylogin;
 
 import org.bukkit.ChatColor;
-import org.bukkit.configuration.file.FileConfiguration;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -15,7 +14,6 @@ import static lb.lbeasylogin.Reference.PASSWDCONFIG;
  * 工具类
  */
 public class Util {
-    private static FileConfiguration msgConfig = Reference.INSTANCE.getConfig();
 
     // https://www.cnblogs.com/zhuyeshen/p/11424713.html
     public static String stringToMD5(String plainText) {
@@ -32,8 +30,13 @@ public class Util {
         return md5code.toString();
     }
 
-    public static String getColorMsg(String path) {
-        return ChatColor.translateAlternateColorCodes('&', msgConfig.getString(path));
+    public static String getConfigSetting(String path) {
+        // 信息检查
+        String info;
+        if ((info = Reference.INSTANCE.getConfig().getString(path)) == null) {
+            info = "&l&eOops! &cCan't find the info! &cHave you change the jar file??? " + path;
+        }
+        return ChatColor.translateAlternateColorCodes('&', info);
     }
 
     public static void savePwdConfig() {

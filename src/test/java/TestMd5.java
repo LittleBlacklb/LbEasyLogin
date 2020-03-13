@@ -1,7 +1,10 @@
 import lb.lbeasylogin.Util;
+import org.junit.Test;
 
 public class TestMd5 {
-    public static void main(String[] args) {
-        System.out.println(Util.stringToMD5( ""));
+
+    @Test
+    public void testMd5() {
+        System.out.println(Util.stringToMD5(""));
     }
 }
