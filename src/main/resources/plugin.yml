@@ -1,0 +1,15 @@
+name: EasyLogin
+main: lb.lbeasylogin.LbEasyLogin
+version: "1.0"
+api-version: 1.12.2
+author: littleblackLB
+commands:
+  register:
+    description: Player to register
+    usage: /register password password
+    aliases: reg
+
+  login:
+    description: Player to login
+    usage: /login password
+    aliases: l

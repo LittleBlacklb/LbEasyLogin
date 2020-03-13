@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6e8d083-a291-4b70-97d5-3fc5d5a8840f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EasyLogin" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YNWbZv0HzPclUpwVld82MciTCV" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Server/craftbukkit-1.12.2.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\Minecraft_Plugins\Dev\LbEasyLogin\src\main\resources" />
+      <recent name="E:\Java\Minecraft_Plugins\Dev\EasyLogin\lib" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.baidu.com" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.bilibili.com" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestMd5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMd5" />
+      <module name="LbEasyLogin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMd5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6e8d083-a291-4b70-97d5-3fc5d5a8840f" name="Default Changelist" comment="" />
+      <created>1582783604531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582783604531</updated>
+      <workItem from="1582783607576" duration="230000" />
+      <workItem from="1582783850294" duration="4400000" />
+      <workItem from="1582806250057" duration="7493000" />
+      <workItem from="1582849243901" duration="2249000" />
+      <workItem from="1582864568437" duration="4702000" />
+      <workItem from="1582873969743" duration="21877000" />
+      <workItem from="1582899516029" duration="1787000" />
+      <workItem from="1582901333540" duration="1690000" />
+      <workItem from="1582967547951" duration="17834000" />
+      <workItem from="1583412541929" duration="20000" />
+      <workItem from="1584007704015" duration="4758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Inspections" timestamp="1582969511669">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1582969511669" />
+    <state x="552" y="198" key="#Notifications" timestamp="1582967580200">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1582967580200" />
+    <state x="552" y="198" key="#Plugins" timestamp="1582899503667">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1582899503667" />
+    <state x="511" y="224" key="#Project_Structure" timestamp="1582811373061">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="511" y="224" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1582811373061" />
+    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582901838330">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="295" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582901838330" />
+    <state x="681" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582983472475">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="681" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582983472475" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1582980686649">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582980686649" />
+    <state x="714" y="230" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1582807094132">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="230" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582807094132" />
+    <state x="739" y="398" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582884710211">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="398" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1582884710211" />
+    <state x="714" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582884993655">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1582884993655" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1582810421679">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582810421679" />
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1582988666189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582988666189" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1582988666189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582988666189" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1582988666189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582988666189" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1582988666189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582988666189" />
+    <state x="735" y="203" key="SettingsEditor" timestamp="1582967566713">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="735" y="203" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582967566713" />
+    <state x="53" y="56" width="1795" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582889992540">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="53" y="56" width="1795" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582889992540" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583412541776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583412541776" />
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582785314071">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="242" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582785314071" />
+    <state x="744" y="106" width="970" height="931" key="dock-window-1" timestamp="1582984895277">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="744" y="106" width="970" height="931" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1582984895277" />
+    <state x="661" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1582883440830">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582883440830" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1582981900703">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582981900703" />
+    <state x="812" y="308" width="672" height="678" key="search.everywhere.popup" timestamp="1584012990384">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="812" y="308" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584012990384" />
+  </component>
+</project>
